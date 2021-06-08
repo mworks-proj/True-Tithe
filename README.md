@@ -8,3 +8,5 @@ Tide is built on the XRPL which makes accepting tithes and offerings from church
 - Member Contributions
 - Cloud Vault
 - Scholarship NFTs
+
+# Prototype https://pr.to/XDBYP9/
