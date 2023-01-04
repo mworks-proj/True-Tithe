@@ -8,4 +8,7 @@ Tithe is built on the XRPL allowing Non-profit Church / Fundraising Organization
 - Church Members Account (Basic KYC)
 - Tithe Records (End-Of-Year Tax deductions)
 
+
+What is Tithing? A tithe, 10% of your wages voluntary and paid in usdc currency to your local church organization.
+
 # Prototype coming soon.
