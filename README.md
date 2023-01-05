@@ -11,4 +11,4 @@ Tithe is built on the XRPL allowing Non-profit Church / Fundraising Organization
 
 What is Tithing? A tithe, 10% of your wages voluntary and paid in usdc currency to your local church organization.
 
-# Prototype coming soon.
+#Prototype https://tinyurl.com/tithe-xrpl
