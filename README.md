@@ -3,6 +3,8 @@
 Empowering Organizations to Accept Donations on the XRPL via HTML landing pages.
 Using GemWallet API. Hooks & XUMM Wallet API is under review.
 
+###### - [HTML Starter (use GemWallet within your browser without any frontend framework)](/html-starter/)
+
 ## Getting started with True Tithe Templates
 
 1. Clone this repository:
@@ -10,18 +12,18 @@ Using GemWallet API. Hooks & XUMM Wallet API is under review.
 git clone https://github.com/mworks-proj/True-Tithe.git
 ```
 
-2. Serve the index.html in your browser
+2. Serve the index.html in your browser.
 To serve th index.html in your browser follow these steps:
 
-0. switch to desired template using `cd template-01`
-1. install required modules via `npm install`
-2. install any updates using `sudo npm install -g npm`
-3. launch local dev enviornment `npm start`
+0. Switch to desired template using `cd template-01`
+1. Install required modules via `npm install`
+2. Install any updates using `sudo npm install -g npm`
+3. Launch local dev enviornment `npm start`
 
 
 ## Usage
 
- Find GemWallet API in `<script>` section and add your orgs xrpl address
+ Find GemWallet API in `<script>` section and add your business/ orgs xrpl address to recieve $XRP $USD and trustline info. For more info on how to establish these address see 
 
 The script contains three buttons that trigger the following actions:
 1. Pay XRP: Sends 20 XRP to the specified destination address.
@@ -47,7 +49,8 @@ The script contains three buttons that trigger the following actions:
         // Define the payment issuer.
         const issuer = "YOUR USD TESNET ADDRESS GOES HERE";
 ```
-3. Add trustline: Adds a trustline for USD with the specified issuer.
+3. Add Trustline: Adds a Trustline for USD with the specified issuer. 
+   [Setup USD Trustlines](https://issue.cash/)
 
 ```
     // The `handleTrustline` function is called when the "Add trustline" button is clicked.
@@ -59,13 +62,13 @@ The script contains three buttons that trigger the following actions:
           // Define the transaction details.
           const transaction = {
             currency: "USD",
-            issuer: "YOUR XRPL TESTNET TOKEN TRUSTLINE ADDRESS",
+            issuer: "YOUR $USD TESTNET ADDRESS / ADDRESS WHERE YOU WILL RECIEVE $USD",
             value: "10000000",
           };
           // Add the trustline using GemWallet.
     (!THIS IS YOUR XRPL TOKEN ADDRESS ISSUED BY YOUR ORGANIZATIONS)
 
 ```
-- [HTML Starter (use GemWallet within your browser without any frontend framework)](/html-starter/)
+
 
 
