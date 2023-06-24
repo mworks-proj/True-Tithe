@@ -25,10 +25,22 @@ To serve th index.html in your browser follow these steps:
 
  Find GemWallet API in `<script>` section and add your business/ orgs xrpl address to recieve $XRP $USD and trustline info. For more info on how to establish these address see 
 
- ### The script contains three buttons that trigger the following actions:
+ ### The script contains triggers for gemwallet api. 
+ 
+ ```
+ // Define the payment 
+ // Define the issuer
+ // Define the transactions for Trustline 
+
+ Update script with your information.
+ ```
+ 
 
 <details>
+
 <summary>1. Pay XRP: Sends 20 XRP to the specified destination address.</summary>
+
+###### [Get Testnet $XRP Wallet Address](https://xrpl.services/tools).
 
 ```
     
@@ -49,9 +61,9 @@ To serve th index.html in your browser follow these steps:
 <details>
 <summary>2. Pay USD: Sends 20 USD to the specified issuer address.</summary>
 
-
+###### [Get Testnet $USD Wallet Address](https://xrpl.services/tools).
 ```
-    [Obtain $USD Wallet Address](https://xrpl.services/tools).
+   
     
     // The `handleUSDPayment` function is called when the "Pay USD" button is clicked.
       function handleUSDPayment(currency) {
@@ -67,9 +79,8 @@ To serve th index.html in your browser follow these steps:
 3. Add Trustline: Adds a Trustline for USD with the specified issuer. 
    </summary>
    
+ ###### [Setup Testnet $USD Trustline](https://issue.cash/)
 ```
-    [Setup USD Trustline](https://issue.cash/)
-    
     q// The `handleTrustline` function is called when the "Add trustline" button is clicked.
       function handleTrustline() {
         // Check if GemWallet is connected (installed).
