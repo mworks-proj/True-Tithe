@@ -47,7 +47,7 @@ The script contains three buttons that trigger the following actions:
     // The `handleUSDPayment` function is called when the "Pay USD" button is clicked.
       function handleUSDPayment(currency) {
         // Define the payment issuer.
-        const issuer = "YOUR USD TESNET ADDRESS GOES HERE";
+        const issuer = "YOUR USD TESTNET ADDRESS GOES HERE";
 ```
 3. Add Trustline: Adds a Trustline for USD with the specified issuer. 
    [Setup USD Trustlines](https://issue.cash/)
