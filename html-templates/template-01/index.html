@@ -26,7 +26,7 @@
 
     <title>True Tithe Donation Template</title>
     <!-- In this example we use GemWallet version 2.1.0, feel free to use the last version -->
-    <script src="https://unpkg.com/@gemwallet/api@3.0.0/umd/gemwallet-api.js"></script>
+    <script src="https://unpkg.com/@gemwallet/api@2.1.0/umd/gemwallet-api.js"></script>
 </head>
 <body>
 
@@ -664,6 +664,7 @@
 			.catch((e) => {
 			  // Log an error message if GemWallet is not connected.
 			  console.error("GemWallet is not connected: ", e);
+			  alert("GEMWALLET NOT CONNECTED");
 			});
 		}
 	  
