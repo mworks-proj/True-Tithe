@@ -645,7 +645,7 @@
 				// Define the payment details.
 				const payment = {
 				  amount: "20",
-				  destination: "rfDssrwRLmhmGrkx7b47aF7DXd9Uhtpkzc",
+				  destination: "rHn27oq6ympXBe2HpotGvgV4LSQDH5516Q",
 				};
 				// Send the payment using GemWallet.
 				GemWalletApi.sendPayment(payment)
@@ -658,6 +658,7 @@
 				  .catch((e) => {
 					// Log an error message if the payment couldn't be made.
 					console.error("Cannot proceed the payment: ", e);
+					alert("Cannot proceed the payment: ", e);
 				  });
 			  }
 			})
